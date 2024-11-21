@@ -1,0 +1,99 @@
+body{
+    /* background-color:white; */
+    background-image: url('https://media.olivegarden.com/images/site/body-bg.jpg');
+    background-size: cover;
+}
+.About-us-sec1{
+    /* border:solid blue; */
+    display:flex;
+    height:50vh;    
+    justify-content: space-around;
+    margin:1em;
+}
+.About-us-sec2{
+    /* border:solid blue; */
+    display:flex;
+    height:30vh;    
+    justify-content: space-around;
+    margin:1em;
+}
+.Image-sec1{
+   /* border:solid green; */
+   width:50%;    
+}
+
+#img1{
+    width:100%;
+    height:100%;
+}
+/* #img2{
+    width:20%;
+    height:20%;
+} */
+
+/* .Text-sec1, */
+.Text-sec2{
+    /* border:solid red; */
+    width:30%;
+    color:black;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 22px;
+    text-align: center;    
+}
+
+.rewards{
+    /* border:solid blue; */
+    width:20%;
+    text-align: center;
+}
+
+#img-app1,#img-app2,#img-app3,#img-app4{
+width:20%;
+}
+.Image-sec2{
+    width:50%;
+    height:30vh;
+    /* border:solid black; */
+    background-image:url('https://www.bravoitalian.com/wp-content/uploads/Lunch_Combo_Bravo_Chopped.jpg.webp');
+}
+.Image-sec2:hover{
+    width:100%;
+    height:50vh;
+    transition:4s;
+    background-image:url('https://www.bravoitalian.com/wp-content/uploads/Lunch_Combo_Bravo_Chopped.jpg.webp');
+}
+@keyframes animatethis {
+    0%{
+        font-size:5px;
+        color:orange;
+        font-family:"Sour Gummy", sans-serif;
+    }
+    25%{
+        font-size:10px;
+        color:orangered;
+        font-family:"Sour Gummy", sans-serif;
+        
+    }
+    50%{
+        font-size:15px;
+        color:red;
+        font-family:"Sour Gummy", sans-serif;
+        
+    }    
+    100%{
+        font-size:20px;
+        color:brown;
+        font-family:"Sour Gummy", sans-serif;
+    }
+}
+.Text-sec1{
+    animation-name: animatethis;
+    animation-duration: 5s;
+    font-size: 20px;
+    font-family:"Sour Gummy", sans-serif;
+    color:black;
+    width:30%;
+}
+
+
+

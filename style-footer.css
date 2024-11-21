@@ -1,0 +1,38 @@
+.Footer{
+    background-image: url('https://media.olivegarden.com/images/site/bk-olive-branch.png');
+    background-size: cover;
+    /* border:solid brown; */
+    height:50vh;
+    margin-top: 5%;    
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+th{      
+    color:white;
+    font:"Merriweather", serif;
+    font-size: 20px;    
+    padding-top: 55px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 40px;
+    border:none;
+    text-align: center;    
+}
+
+td{    
+    color:white;
+    font:"Merriweather", serif;
+    font-size: 20px;    
+    border:none; 
+    padding-top: 5px;
+    padding-bottom: 5px;   
+   padding-left: 10px;
+  padding-right: 10px; 
+  text-align: center;  
+}
+.About-page{
+    color:white;
+}

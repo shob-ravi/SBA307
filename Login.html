@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Login.css"> 
+    <!-- Ipad view -->
+    <link rel="stylesheet" media="(min-width: 600px) and (max-width:992px)" href="style-list1.css"/>
+    <!-- Desktop view -->
+    <link rel="stylesheet" media="(min-width: 992px)" href="style-list2.css"/>
+    
+</head>
+<body>
+    <!-- nav bar -->
+    <div class="NavBar-sec">
+        <div class="Navtab-logo-sec">
+            
+            <img src="https://png.pngtree.com/png-clipart/20220903/ourmid/pngtree-chef-restaurant-logo-png-image_6136204.png" id="main-logo">
+        </div>
+        <div class="Navtab-menu-sec">
+            
+                <p><strong><a href="index.html">HOME</a></strong></p>  
+            
+            
+        </div>
+        
+        <div class="Navtab-login-sec">            
+            <div class="findNavTab">
+                <p>FIND RESTAURANT</p>                       
+            </div>
+            <div class="loginNavTab">
+                <p><a href="Login.html">LOG IN</a></p> 
+                <img src="https://media.olivegarden.com/images/site/order_togo.png" id="togoLogo">   
+            </div>
+        </div>
+        
+    </div>     
+    <div class="login-container">
+        <div class="form-container">
+            <h2>Log In</h2>
+            <form>
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <div class="password-container">
+                        <input type="password" id="password" placeholder="Enter your password" required>
+                        <button type="button" class="toggle-password">👁️</button>
+                    </div>
+                </div>
+                <div class="options">
+                    <label>
+                        <input type="checkbox" id="remember-me"> Remember me
+                    </label>
+                    <a href="#" class="link">Forgot your password?</a>
+                </div>
+                <button type="submit" class="btn">Log In</button>
+                <a href="#" class="link">Reset Your Password</a>
+            </form>
+        </div>
+        <div class="extra-options">
+            <p>Don't have an account? <a href="#" class="link">Create a New Account</a></p>
+        </div>
+    </div>    
+      
+     
+</body>
+</html>

@@ -1,0 +1,429 @@
+body{
+    /* background-color: yellow;  */
+    overflow-x:hidden;
+}
+.NavBar-sec{
+    border:solid black; 
+    font-family: "Merriweather", serif;
+    font-size: 15px;
+    height:6vh;
+    width:98%;
+    display:flex;  
+    justify-content: space-around;
+    align-items: center;
+    position:fixed; 
+    top:0;
+    z-index: 1000;
+    background-color: beige; 
+}
+.Navtab-logo-sec{
+    /* border:solid green;  */
+    width:15%;
+    height:100%;
+}
+#main-logo{
+    width:30%;
+    height:100%;
+}
+.Navtab-menu-sec{
+    /* border:solid red;  */
+    width:62%;
+    height:100%;
+    display:flex;   
+    gap:10px; 
+    
+}
+.menuNavTab,.orderNavTab,.joinNavTab,.caterNavTab{
+    
+    margin: 0.2%;
+}
+/* added now for drop down starts here*/
+.menuNavTab{
+    float: left;
+    overflow: hidden;
+}
+.menuNavTab, .dropbtn {
+    font-size: 15px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;     
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .navbar a:hover, .menuNavTab:hover .dropbtn {
+    background-color: greenyellow;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: beige;
+   min-width: 160px; 
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;}
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;   
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+      .dropdown-content a:hover {background-color: #ddd;}
+
+      .menuNavTab:hover .dropdown-content {display: block;}      
+
+      /*drop down content ends here  */
+.Navtab-menu-sec>p{
+    margin:0;
+}
+.Navtab-login-sec{
+    /* border:solid blue;  */
+    width:23%;
+    height:100%;    
+    display:flex; 
+    align-items: center;    
+    
+}
+.findNavTab{
+   
+    border:solid black;  
+    width:60%;
+    height:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center; 
+    
+}
+.loginNavTab{
+    
+    border:solid black;  
+    width:40%;
+    height:100%;
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;  
+}
+  
+.Main-img-sec{
+   
+    width:100%;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+    pointer-events: none;
+    position: relative;
+    
+}
+.Main-img-sec iframe{
+    width: 300%;
+    height:100%;
+    margin-left: -100%;
+}
+.Main-img-sec>h1,.Main-img-sec>h2{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%); 
+    font-family:"Sour Gummy", sans-serif; 
+    color: white;
+    /* margin: 15; */
+}
+.Main-img-sec > h1 {
+    top: calc(40% -50px); 
+    font-size: 50px;
+}
+.Main-img-sec > h2 {
+    top: calc(20%); 
+    font-size: 45px;
+}
+
+.Main-img-sec>button{
+    position: absolute;
+    top: 360px; 
+    left: 840px; 
+    font-size: 18px;
+    padding: 10px; 
+    color:white;
+    border:solid white;
+    background-color: transparent;    
+    font-family:"Sour Gummy", sans-serif;  
+    
+}
+.NewsOffers-primary{
+    background-color:#492151f1; 
+    height:13vh;
+}
+.NewsOffers-sec{
+   
+    height:70%;    
+    color: white;
+    display: flex;    
+    justify-content: center;  
+    align-items:center;   
+    
+}
+.NewsOffers-sec>h1{    
+    margin-right: 15px;
+    font-size: 18px; 
+}
+.NewsOffers-sec>input{
+    border: solid yellowgreen;
+    margin: 5px;
+    line-height: 30px;
+}
+.NewsOffers-sec>button{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 15%;
+    padding: 10px;
+    border:solid white;
+    color: white;
+    background-color: transparent;    
+    font-family:"Sour Gummy", sans-serif;
+}
+.NewsOffers-primary>h4{  
+    
+    margin-top: 0;  
+    color: white;
+    text-align: center;   
+    
+}
+.Everyday-special-sec{
+     /* border:solid lime;  */
+    height:60vh;
+    margin-top: 2%;    
+    background-image: url('https://media.olivegarden.com/images/site/ext/pages/_promotions/home/og-home-specials-020724-desktop.svg');
+
+}
+.text-class{
+    /* border:solid fuchsia;  */
+    height:auto;      
+    color:white;
+    font-family:"Sour Gummy", sans-serif;
+    font-size: 18px; 
+    text-align: center;
+}
+.text-img-class{
+    /* border:solid blue;  */
+    text-align: center;
+    margin: 1em;
+   
+}
+#text{
+    width:40%;
+    margin:1em;
+}
+
+.text-class>button{
+    
+    padding: 8px;
+    font-size: 16px;
+    font-family:"Sour Gummy", sans-serif;
+    border-radius: 8%;
+    background-color: rgb(80, 61, 61);
+    color: white;
+    width:200px;
+    height:37px;
+}
+
+.Menu-Primary-sec{
+    height:160vh;
+    margin-top: 2%; 
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.Menu-Primary-sec>h1{
+    text-align: center;
+    font-family:"Sour Gummy", sans-serif;
+}
+.Menu-sec1,.Menu-sec2,.Menu-sec3,.Menu-sec4{     
+    height:35vh; 
+    margin-top: 18px;   
+    display:flex;   
+    justify-content: space-evenly;
+   
+}
+.sec1-container1{
+    /* border:solid red; */
+    width:25%;
+    background-image: url('https://media.olivegarden.com/images/site/ext/pages/_promotions/home/OG-FriedMozz-350@2x.jpg');
+    background-size: cover;
+    text-align: center;
+    display:flex;
+    align-items: flex-end;
+}
+.sec1-child1>button,.sec1-child2>button,.sec2-child1>button,.sec2-child2>button,.sec3-child1>button,.sec3-child2>button,.sec4-child1>button,.sec4-child2>button{
+    border-radius: 8%;
+    font-size: 15px; 
+    padding: 10px; 
+    color:white;
+    width:auto;
+    border:solid white;
+    background-color: transparent;    
+    font-family:"Sour Gummy", sans-serif; 
+    text-align:right;     
+}
+.sec1-child1>h1,.sec1-child2>h1,.sec2-child1>h1,.sec2-child2>h1,.sec3-child1>h1,.sec3-child2>h1,.sec4-child1>h1,.sec4-child2>h1{
+    font-family:"Sour Gummy", sans-serif;
+    font-size: 30px;
+    color: white;   
+    text-align: right;     
+}
+.sec1-child1>button:hover,.sec1-child2>button:hover,.sec2-child1>button:hover,.sec2-child2>button:hover,.sec3-child1>button:hover,.sec3-child2>button:hover,.sec4-child1>button:hover,.sec4-child2>button:hover{
+   
+    border-radius: 8%;
+    font-size: 20px;
+    padding: 10px; 
+    color:white;
+    width:auto;
+    border:solid white;
+    background-color: transparent;    
+    font-family:"Sour Gummy", sans-serif; }
+
+    .sec1-container2{
+        /* border:solid red; */
+        width:65%;
+        background-image: url('https://media.olivegarden.com/images/site/ext/pages/_promotions/home/OG-BlackTie-730@2x.jpg');
+        background-size: cover;
+        text-align:center;
+        display:flex;
+        align-items: flex-end;  
+    }
+    .sec2-container1{
+        /* border:solid red; */
+        width:45%;
+        background-image: url('https://media.olivegarden.com/images/site/ext/pages/_promotions/home/OG-ChickenAlfredo-540@2x.jpg');
+        background-size: cover;
+        text-align:center;
+        display:flex;
+        align-items: flex-end;
+    }
+    .sec2-container2{
+        /* border:solid red; */
+        width:45%;
+        background-image: url('https://media.olivegarden.com/images/site/ext/pages/_promotions/home/OG-CreateOwnPasta-540@2x.jpg');
+        background-size: cover;
+        text-align:right;
+        display:flex;
+        align-items: flex-end;
+    }
+    .sec3-container1{
+        /* border:solid red; */
+        width:65%;
+        background-image: url('https://media.olivegarden.com/images/site/ext/pages/_promotions/home/SicilianCheesecakeWithStrawberryTopping-700@2x.jpg');
+        background-size: cover;
+        text-align:right;
+        display:flex;
+        align-items: flex-end;
+    }
+    .sec3-container2{
+        /* border:solid red; */
+        width:25%;
+        background-image: url('https://media.olivegarden.com/images/site/ext/pages/_promotions/home/OG-Beverage-0217b.jpg');
+        background-size: cover;
+        text-align:right;
+        display:flex;
+        align-items: flex-end; 
+    }
+
+    .sec4-container1{
+        /* border:solid red; */
+        width:45%;
+        background-image: url('https://media.olivegarden.com/images/site/ext/pages/_promotions/home/Module_Catering-081521.jpg');
+        background-size: cover;
+        text-align:right;
+        display:flex;
+        align-items: flex-end; 
+    }
+    .sec4-container2{
+        /* border:solid red; */
+        width:45%;
+        background-image: url('https://media.olivegarden.com/images/site/ext/pages/_promotions/home/OG-ChickenAlfredo.jpeg');
+        background-size: cover;
+        text-align:right;
+        display:flex;
+        align-items: flex-end; 
+    }
+.CareersSignup-primary{
+    /* border:solid rebeccapurple; */
+    height:35vh;
+    margin-left:15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    display:flex;
+    justify-content: space-around;
+}
+.careers-sec,.catering-sec,.eClub-sec,.gift-sec{
+    /* border:solid aqua; */
+    height:90%;
+    width:20%;  
+    
+}
+ul.no-bullets {
+    list-style-type: none;
+    margin-left: 50px;
+    padding: 0;
+    font-family:"Sour Gummy", sans-serif;
+    font-size:25px;
+  }
+#career-logo{
+    width:50%;
+}
+#cater-logo{
+    width:60%;
+}
+#eClub-logo,#gift-logo{
+    width:70%;
+}
+.careers-sec>button,.catering-sec>button,.eClub-sec>button,.gift-sec>button{
+    border-radius: 8%;
+    font-size: 18px;
+    padding: 5px; 
+    color:rgb(24, 36, 5);
+    width:170px;
+    height:35px;
+    border:solid rgb(24, 36, 5);
+    background-color: transparent;    
+    font-family:"Sour Gummy", sans-serif; 
+    margin-left: 10%;
+}
+.Footer{
+    background-image: url('https://media.olivegarden.com/images/site/bk-olive-branch.png');
+    background-size: cover;
+    /* border:solid brown; */
+    height:50vh;
+    margin-top: 5%;
+    display: flex;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+th{      
+    color:white;
+    font:"Merriweather", serif;
+    font-size: 20px;    
+    padding-top: 55px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 40px;
+    border:none;
+    text-align: center;    
+}
+
+td{    
+    color:white;
+    font:"Merriweather", serif;
+    font-size: 20px;    
+    border:none; 
+    padding-top: 5px;
+    padding-bottom: 5px;   
+   padding-left: 10px;
+  padding-right: 10px; 
+  text-align: center;  
+}
+.About-page{
+    color:white;
+}
